@@ -1,21 +1,22 @@
 /* เมนูไอคอนใน dropdown ให้กว้างเท่ากัน */
-.menu-icon{
+.menu-icon {
   width: 22px;
   display: inline-flex;
   justify-content: center;
 }
 
 /* โปรไฟล์รูป */
-.avatar-wrap{
+.avatar-wrap {
   width: 120px;
   height: 120px;
   border-radius: 16px;
-  background: rgb(7, 97, 161); 
+  background: rgb(7, 97, 161);
   display: grid;
   place-items: center;
   overflow: hidden;
 }
-.avatar{
+
+.avatar {
   width: 108px;
   height: 108px;
   border-radius: 14px;
@@ -23,7 +24,7 @@
 }
 
 /* ปุ่มไอคอน social */
-.icon-btn{
+.icon-btn {
   width: 38px;
   height: 38px;
   border-radius: 12px;
@@ -33,64 +34,71 @@
   text-decoration: none;
   color: #111;
   background: #f3f5f7;
-  border: 1px solid rgba(0,0,0,0.06);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   transition: transform .2s ease, box-shadow .2s ease;
 }
-.icon-btn:hover{
+
+.icon-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
 }
 
 /* กล่องข้อมูล (Phone/Email/Location) */
-.info-list{
+.info-list {
   display: grid;
   gap: 14px;
 }
-.info-item{
+
+.info-item {
   display: flex;
   gap: 12px;
   align-items: center;
 }
-.info-ic{
+
+.info-ic {
   width: 38px;
   height: 38px;
   border-radius: 12px;
   background: #f3f5f7;
   display: grid;
   place-items: center;
-  border: 1px solid rgba(0,0,0,0.06);
+  border: 1px solid rgba(0, 0, 0, 0.06);
 }
-.label{
+
+.label {
   font-size: 12px;
   color: #6c757d;
   font-weight: 700;
 }
-.value{
+
+.value {
   font-size: 14px;
   font-weight: 700;
   color: #111;
 }
 
 /* Title style */
-.section-title{
+.section-title {
   letter-spacing: 1px;
   font-weight: 900;
 }
 
 /* What I do cards */
-.mini-card{
+.mini-card {
   background: #ffffff;
-  border: 1px solid rgba(0,0,0,0.06);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 16px;
   padding: 14px 14px;
 }
-.mini-head{
+
+.mini-head {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 8px;
 }
-.mini-ic{
+
+.mini-ic {
   width: 38px;
   height: 38px;
   border-radius: 12px;
@@ -99,13 +107,29 @@
   color: #111;
   font-weight: 900;
 }
-.mini-ic.web{ background: rgba(255, 193, 7, 0.30); }
-.mini-ic.app{ background: rgba(13, 110, 253, 0.18); }
-.mini-ic.ui{ background: rgba(255, 99, 132, 0.18); }
-.mini-ic.mentor{ background: rgba(25, 135, 84, 0.18); }
 
-/* Project cards (ซ้ายรูป ขวาข้อความ + ไอคอนมุมขวาบน + คลิกได้ทั้งใบ) */
-.project-card{
+.mini-ic.database {
+  background: rgba(111, 66, 193, 0.18);
+}
+
+
+.mini-ic.backend {
+  background: rgba(13, 110, 253, 0.18);
+}
+
+
+.mini-ic.system {
+  background: rgba(255, 193, 7, 0.30);
+}
+
+
+.mini-ic.software {
+  background: rgba(25, 135, 84, 0.18);
+}
+
+
+
+.project-card {
   position: relative;
   display: flex;
   gap: 14px;
@@ -115,19 +139,19 @@
   padding: 14px;
   border-radius: 16px;
   background: #fff;
-  border: 1px solid rgba(0,0,0,0.06);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   transition: transform .2s ease, box-shadow .2s ease;
   margin-top: 12px;
 }
 
 /* Modal theme */
-.project-modal{
+.project-modal {
   border: 0;
   border-radius: 18px;
-  box-shadow: 0 22px 60px rgba(0,0,0,0.22);
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.22);
 }
 
-.project-hero1{
+.project-hero1 {
   height: 180px;
   background-image: url("img/project1.png");
   background-size: cover;
@@ -135,7 +159,7 @@
   position: relative;
 }
 
-.project-hero2{
+.project-hero2 {
   height: 180px;
   background-image: url("img/project2.png");
   background-size: cover;
@@ -143,10 +167,10 @@
   position: relative;
 }
 
-.project-hero-overlay{
+.project-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(0,0,0,0.55), rgba(0,0,0,0.15));
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15));
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -154,34 +178,45 @@
   color: #fff;
 }
 
-.project-card:hover{
+.project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 30px rgba(0,0,0,0.12);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
 }
-.project-card img{
+
+.project-card img {
   width: 86px;
   height: 86px;
   border-radius: 14px;
   object-fit: cover;
   flex-shrink: 0;
 }
-.proj-icon{
+
+.proj-icon {
   position: absolute;
   top: 12px;
   right: 12px;
   color: #9aa0a6;
   transition: transform .2s ease, color .2s ease;
 }
-.project-card:hover .proj-icon{
+
+.project-card:hover .proj-icon {
   color: #111;
   transform: translate(2px, -2px);
 }
-.project-info p{
+
+.project-info p {
   font-size: 14px;
 }
 
 /* Responsive tweaks */
-@media (max-width: 420px){
-  .avatar-wrap{ width: 104px; height: 104px; }
-  .avatar{ width: 94px; height: 94px; }
+@media (max-width: 420px) {
+  .avatar-wrap {
+    width: 104px;
+    height: 104px;
+  }
+
+  .avatar {
+    width: 94px;
+    height: 94px;
+  }
 }
