@@ -1,0 +1,51 @@
+/* style.css (FULL) */
+
+/* ทำให้ตัวอักษร tagline spacing */
+.letter-space {
+  letter-spacing: 1px;
+}
+
+/* รูปโปรไฟล์: วงกลม + crop เท่ากัน */
+.profile-img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  background: #eee;
+  border: 6px solid #fff;
+}
+
+/* สีไอคอน */
+.ig { color: #E1306C; }
+.fb { color: #1877F2; }
+.gh { color: #000; }
+
+/* hover: การ์ดนูนขึ้น */
+.profile-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-link:hover .profile-card {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.22);
+}
+
+/* แถบสีดำ: เต็ม card + ติดล่าง + กดไม่ได้ */
+.card-footer-custom {
+  width: 100%;
+  background: #1f2428;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  pointer-events: none; /* ❌ กดไม่ได้ */
+}
+
+/* ปรับขนาด icon ใน dropdown ให้เท่ากัน */
+.menu-icon {
+  width: 22px;
+  display: inline-flex;
+  justify-content: center;
+}
