@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>JAONAI Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-light">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="..\index\index.html">User Profile Portfolio</a>
+
+      <div class="dropdown">
+        <button class="btn btn-dark border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+          aria-label="Open menu">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </button>
+
+        <ul class="dropdown-menu dropdown-menu-end shadow">
+          <li>
+            <a class="dropdown-item d-flex align-items-center gap-2" href="..\index\index.html">
+              <span class="menu-icon"><i class="fa-solid fa-house"></i></span> Home
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item d-flex align-items-center gap-2" href="./person1.html">
+              <span class="menu-icon"><i class="fa-solid fa-user"></i></span> JUEJUE
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item d-flex align-items-center gap-2" href="../person2/person2.html">
+              <span class="menu-icon"><i class="fa-solid fa-user"></i></span> JAONAI
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE -->
+  <main class="container py-4 py-md-5">
+    <div class="row g-4">
+
+      <!-- LEFT: Profile Card -->
+      <aside class="col-12 col-lg-4">
+        <div class="card shadow-sm rounded-4 overflow-hidden">
+          <div class="p-4 text-center">
+            <div class="avatar-wrap mx-auto mb-3">
+              <!-- เปลี่ยนเป็นรูปคุณ -->
+              <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="JAONAI" class="avatar">
+            </div>
+
+            <h2 class="mb-1 fw-bold">JAONAI</h2>
+            <div class="text-secondary small mb-3">Full Stack Developer</div>
+
+            <div class="d-flex justify-content-center gap-2 mb-3">
+              <a class="icon-btn" href="https://www.instagram.com/tnn.pat" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a class="icon-btn" href="#" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a class="icon-btn"
+                href="#"
+                target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="text-start info-list">
+              <div class="info-item">
+                <div class="info-ic"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <div class="label">Phone</div>
+                  <div class="value">+66 xx-xxx-xxxx</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-ic"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <div class="label">Email</div>
+                  <div class="value">67050215@kmitl.ac.th</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-ic"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <div class="label">Location</div>
+                  <div class="value">Bangkok, Thailand</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </aside>
+
+      <!-- RIGHT: Content -->
+      <section class="col-12 col-lg-8">
+        <div class="card shadow-sm rounded-4 p-4 p-md-5">
+          <h3 class="section-title mb-3">ABOUT ME</h3>
+
+          <div class="row g-2">
+            <div class="col-4 fw-bold">Name</div>
+            <div class="col-8">Tanapat Rodpai</div>
+
+            <div class="col-4 fw-bold">Age</div>
+            <div class="col-8">20</div>
+
+            <div class="col-4 fw-bold">Role</div>
+            <div class="col-8">Full Stack Developer</div>
+
+            <div class="col-4 fw-bold">University</div>
+            <div class="col-8">KMITL</div>
+
+            <div class="col-4 fw-bold">Location</div>
+            <div class="col-8">Bangkok, Thailand</div>
+          </div>
+
+          <hr class="my-4">
+
+          <h4 class="fw-bold mb-3">SKILL</h4>
+
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <div class="mini-card h-100">
+                <div class="mini-head">
+                  <span class="mini-ic web"><i class="fa-solid fa-code"></i></span>
+                  <h5 class="mb-0 fw-bold">Web Development</h5>
+                </div>
+                <p class="text-secondary mb-0">
+                  พัฒนาเว็บไซต์ที่รองรับการแสดงผลทุกอุปกรณ์ รวมถึงระบบเว็บแอปพลิเคชันและ API โดยใช้เครื่องมือสมัยใหม่และแนวปฏิบัติที่เหมาะสมตามมาตรฐานการพัฒนาเว็บ
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="mini-card h-100">
+                <div class="mini-head">
+                  <span class="mini-ic app"><i class="fa-solid fa-mobile-screen-button"></i></span>
+                  <h5 class="mb-0 fw-bold">App Development</h5>
+                </div>
+                <p class="text-secondary mb-0">
+                  ออกแบบและพัฒนาแอปพลิเคชันที่ใช้งานง่าย พร้อมสร้างต้นแบบ (Prototype) ที่มีการโต้ตอบลื่นไหล และมีโครงสร้าง UI ที่สะอาดและเป็นมิตรต่อผู้ใช้
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="mini-card h-100">
+                <div class="mini-head">
+                  <span class="mini-ic ui"><i class="fa-solid fa-pen-ruler"></i></span>
+                  <h5 class="mb-0 fw-bold">UI/UX Designing</h5>
+                </div>
+                <p class="text-secondary mb-0">
+                  ออกแบบส่วนติดต่อผู้ใช้และประสบการณ์ผู้ใช้ ตั้งแต่การทำ Wireframe ไปจนถึง Prototype โดยคำนึงถึงความง่ายในการใช้งานและประสบการณ์ที่ดีของผู้ใช้เป็นหลัก
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="mini-card h-100">
+                <div class="mini-head">
+                  <span class="mini-ic mentor"><i class="fa-solid fa-handshake-angle"></i></span>
+                  <h5 class="mb-0 fw-bold">Mentorship</h5>
+                </div>
+                <p class="text-secondary mb-0">
+                  ให้คำแนะนำและช่วยเหลือเพื่อนร่วมทีมในการเรียนรู้พื้นฐานการเขียนโค้ด การจัดโครงสร้างโปรเจกต์ และการพัฒนาทักษะการแก้ไขปัญหา
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--  Projects -->
+          <hr class="my-4">
+
+          <h4 class="fw-bold mb-3">Projects</h4>
+
+          <button type="button" class="project-card w-100 text-start" data-bs-toggle="modal"
+            data-bs-target="#project1Modal">
+            <span class="proj-icon" aria-hidden="true">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </span>
+
+            <img src="#..." alt="Project 1">
+
+            <div class="project-info">
+              <h5 class="mb-1 fw-bold">Project 1 : ...</h5>
+              <p class="text-secondary mb-0">...</p>
+            </div>
+          </button>
+
+          <button type="button" class="project-card w-100 text-start" data-bs-toggle="modal"
+            data-bs-target="#project2Modal">
+            <span class="proj-icon" aria-hidden="true">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </span>
+
+            <img src="#..." alt="Project 2">
+
+            <div class="project-info">
+              <h5 class="mb-1 fw-bold">Project 2 : ...</h5>
+              <p class="text-secondary mb-0">...</p>
+            </div>
+          </button>
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ===== MODAL: Project 1 ===== -->
+  <div class="modal fade" id="project1Modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content project-modal overflow-hidden">
+        <div class="modal-body p-0">
+
+          <div class="project-hero1">
+            <div class="project-hero-overlay"></div>
+          </div>
+
+          <div class="p-4 p-md-5 bg-white">
+            <div class="d-flex justify-content-between align-items-start gap-3">
+              <div>
+                <h4 class="fw-bold mb-1">Project 1 : ...</h4>
+                <p class="text-secondary mb-0">...</p>
+              </div>
+
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="row g-4">
+              <div class="col-12 col-md-7">
+                <h6 class="fw-bold">Description</h6>
+                <p class="text-secondary mb-0">
+                  ...
+                </p>
+              </div>
+
+              <div class="col-12 col-md-5">
+                <h6 class="fw-bold">Tech Stack</h6>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge rounded-pill text-bg-light border">HTML</span>
+                  <span class="badge rounded-pill text-bg-light border">CSS</span>
+                  <span class="badge rounded-pill text-bg-light border">JavaScript</span>
+                </div>
+
+                <div class="mt-4">
+                  <h6 class="fw-bold">Links</h6>
+                  <div class="d-grid gap-2">
+                    <a class="btn btn-primary"
+                      href="#..."
+                      target="_blank">
+                      <i class="fa-brands fa-github me-2"></i> View GitHub
+                    </a>
+                    <a class="btn btn-outline-secondary" href="project1/project1.html" target="_blank"
+                      rel="noopener noreferrer">
+                      <i class="fa-solid fa-arrow-up-right-from-square me-2"></i> Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====Project 2===== -->
+  <div class="modal fade" id="project2Modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content project-modal overflow-hidden">
+        <div class="modal-body p-0">
+
+          <div class="project-hero2">
+            <div class="project-hero-overlay"></div>
+          </div>
+
+          <div class="p-4 p-md-5 bg-white">
+            <div class="d-flex justify-content-between align-items-start gap-3">
+              <div>
+                <h4 class="fw-bold mb-1">Project 2 : ...</h4>
+                <p class="text-secondary mb-0">...</p>
+              </div>
+
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="row g-4">
+              <div class="col-12 col-md-7">
+                <h6 class="fw-bold">Description</h6>
+                <p class="text-secondary mb-0">
+                  ...
+                </p>
+              </div>
+
+              <div class="col-12 col-md-5">
+                <h6 class="fw-bold">Tech Stack</h6>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge rounded-pill text-bg-light border">HTML</span>
+                  <span class="badge rounded-pill text-bg-light border">CSS</span>
+                  <span class="badge rounded-pill text-bg-light border">JavaScript</span>
+                </div>
+
+                <div class="mt-4">
+                  <h6 class="fw-bold">Links</h6>
+                  <div class="d-grid gap-2">
+                    <a class="btn btn-primary"
+                      href="#..."
+                      target="_blank">
+                      <i class="fa-brands fa-github me-2"></i> View GitHub
+                    </a>
+                    <a class="btn btn-outline-secondary" href="project2/project2.html" target="_blank"
+                      rel="noopener noreferrer">
+                      <i class="fa-solid fa-arrow-up-right-from-square me-2"></i> Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
